@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PEOPLE TO CONTACT:"
+        android:background="@android:color/holo_orange_light"
+
+        android:textSize="30sp"
+        android:id="@+id/contact"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AVINAVA ROY"
+        android:layout_below="@+id/contact"
+        android:textSize="30sp"
+        android:id="@+id/con1"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact"
+        android:layout_alignParentRight="true"
+        android:text="CALL"
+        android:id="@+id/button1"
+        android:layout_marginTop="10dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/con1"
+        android:background="@android:color/holo_orange_light"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/con1"
+        android:text="ARKAJIT GHOSH"
+        android:textSize="30sp"
+        android:id="@+id/con2"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_alignParentRight="true"
+        android:text="CALL"
+        android:id="@+id/button2"
+        android:layout_marginTop="5dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/con2"
+        android:background="@android:color/holo_orange_light"
+        android:layout_marginTop="10dp"/>
+</RelativeLayout>

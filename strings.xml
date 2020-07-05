@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Reminiscence</string>
+    <string-array name="list">
+        <item>HOME</item>
+        <item>EVENTS</item>
+        <item>SCHEDULE</item>
+        <item>SPONSORS</item>
+        <item>GUEST SPEAKERS</item>
+        <item>CONTACT</item>
+    </string-array>
+</resources>

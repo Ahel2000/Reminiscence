@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="@android:color/holo_orange_light"
+    android:paddingRight="5dp"
+    android:paddingLeft="5dp"
+    android:paddingTop="5dp"
+        tools:context=".OpeningActivity" >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+
+        android:id="@+id/view1"
+        android:background="@android:color/white"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/list"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/view1"
+        android:id="@+id/spinner"
+        android:layout_marginLeft="190dp"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/spinner"
+        android:id="@+id/view"
+        android:background="@android:color/white"/>
+
+
+    <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="203dp"
+       android:layout_below="@+id/view"
+       android:id="@+id/image1"
+       android:src="@drawable/reminiscence" />
+
+
+</RelativeLayout>
