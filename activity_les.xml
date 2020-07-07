@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/holo_orange_light"
+    tools:context=".les">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".les">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/ic_arrow_back_black_24dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="455dp"
+        android:src="@drawable/les"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Have you spent hours researching some random fact you came across in the internet? Have you used all of your pocket money in buying those FAQs and “Did you Know? ” magazines? If the answer is yes, then Reminiscence brings you an exciting opportunity to rise and shine. Get ready to brainstorm, as we bring Les Quizerables, the General Quiz which will put your grey matter into scrutiny. Read through the questions, decode the clues, experience the thrill of solving a mini-mystery. So, if you’re an avid fan of learning something new daily, don’t miss this chance to dive into this vast storehouse of knowledge we’ve prepared for you!
+
+\n\nFor any kind of enquiry contact,\n\n
+Ritam Sarkar - 9836165722\n
+
+Soumyadip Bera - 7890195443\n\n
+Registration Closed for this event\n\n"/>
+</LinearLayout>
+</ScrollView>

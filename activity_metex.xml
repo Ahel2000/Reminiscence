@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    tools:context=".metex">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/holo_orange_light">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_arrow_back_black_24dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="423dp"
+            android:src="@drawable/metexposition"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nFeeling off-track amidst this heartbreaking boredom of this lockdown? Wanna express and recall all you have learnt and praised for a time? So, we are here with an opportunity for  all Meta-Minds sitting there to gather up all your tech-non-tech , scientific - non-scientific research and knowledge on your favorite topics and present before us all that fascinates you .
+
+
+\nThe Society of Student Metallurgists(SSM)-IIEST , Shibpur presents before you -REMINISCENCE with a call for you all to participate in paper presentation on your beloved Department because having knowledge and not expressing it is a no way good . So, what are you waiting for ? Recollect all your knowledge and showcase your talent among hundreds of participants from all over INDIA and Eminent judges and crack a chance to win excellent prizes.
+
+\n\nRules:
+
+\n1.Each team will consist of a maximum of 3 members.
+
+\n2.The subject of the paper presentation must be related to the field of metallurgy and materials engineering.
+
+\n3.Each team has to submit an abstract (not more than 350 words) before 10th July to ssm.iiests@gmail.com  .
+
+\n4.After your abstract has been submitted, you will be contacted for the preliminary rounds where you have to present your topic. The dates of the preliminary rounds will be between 13th-18th July.
+
+\n5.The presentation must not be more than 10 minutes which will be followed by question and answers.
+
+\n6.The best teams will qualify for the finals where you can present your topics in front of eminent speakers. The dates of the finals will be between 20th-24th July.
+
+\n\nIf there is any change in the rules or event timeline, the participants will be notifieed at the earliest.
+
+\nIn case of any discrepancies, the decision of the organizing committee is final.
+
+\n\nFor any kind of enquiry contact,
+\nArkajit Ghosh - 8777030028
+\nRitam Sarkar - 9836165722
+
+\n\n"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGISTER"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\n"/>
+    </LinearLayout>
+
+</ScrollView>
