@@ -1,48 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_height="wrap_content"
     android:layout_width="match_parent"
-    android:background="@android:color/holo_orange_light"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:paddingRight="5dp"
+    android:paddingTop="30dp"
     android:paddingLeft="5dp"
-    android:paddingTop="5dp"
-        tools:context=".OpeningActivity" >
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
-
-        android:id="@+id/view1"
-        android:background="@android:color/white"/>
-
-    <Spinner
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:entries="@array/list"
-        android:layout_marginTop="5dp"
-        android:layout_below="@+id/view1"
-        android:id="@+id/spinner"
-        android:layout_marginLeft="190dp"/>
+    android:paddingBottom="10dp"
+    tools:context=".OpeningActivity">
 
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
-        android:layout_below="@+id/spinner"
-        android:id="@+id/view"
-        android:background="@android:color/white"/>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="5dp"
+    android:paddingLeft="5dp">
 
 
-    <ImageView
-       android:layout_width="wrap_content"
-       android:layout_height="203dp"
-       android:layout_below="@+id/view"
-       android:id="@+id/image1"
-       android:src="@drawable/reminiscence" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/about"
+        app:cardCornerRadius="100dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/aboutus"
+            android:src="@drawable/aboutus" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:cardCornerRadius="100dp"
+
+        android:layout_alignParentRight="true">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/events"
+            android:src="@drawable/eventsbutton" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:cardCornerRadius="100dp"
+        android:layout_below="@+id/about"
+        android:id="@+id/schedule"
+        android:layout_centerHorizontal="true"
+       >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/schedulebutton" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:cardCornerRadius="100dp"
+        android:id="@+id/sponsors"
+        android:layout_below="@+id/schedule"
+        android:layout_alignParentRight="true">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/sponsorsbutton" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:cardCornerRadius="100dp"
+        android:id="@+id/contact"
+        android:layout_below="@+id/schedule"
+        android:layout_alignParentLeft="true">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/contactusbutton" />
+    </androidx.cardview.widget.CardView>
+
 
 
 </RelativeLayout>
+
+</ScrollView>
