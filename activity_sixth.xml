@@ -1,10 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp"
+        tools:context=".sixth">
+<LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/abtssm"
-    tools:context=".sixth">
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+   >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="211dp"
+        android:src="@drawable/reminiscence"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ABOUT SSM"
+        android:textColor="@android:color/white"
+        android:background="@android:color/black"
+        android:textSize="24sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+        android:background="@android:color/black"
+        android:text="Society of Student Metallurgists(SSM) is the face that represents the face of
+the entire Department of Metallurgy and Materials Engineering at IIEST, Shibpur. It is the academic society of the
+Department of Metallurgy and Materials Engineering, IIEST Shibpur founded in the year 1939 to create an interface betweeen
+the students, faculties and alumni.\n\nThe society aims to bring about perfect harmony between technical and co-curricular
+skills development. It also provides students with a platform to explore and grow to their fullest potential.\n\n
+'If you want to be the best,learn from the best'. At SSM, we strive for excellence to acieve our dream of imparting
+knowledge in the young inquisitive minds of the future achievers of this generation."/>
 
 </LinearLayout>
+    </ScrollView>
