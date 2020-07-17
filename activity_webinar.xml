@@ -1,0 +1,71 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:background="@android:color/white"
+    tools:context=".webinar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@android:color/transparent"
+            android:id="@+id/back"
+            android:src="@drawable/ic_arrow_back_black_24dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:shadowRadius="10"
+            android:shadowColor="@android:color/white"
+            android:textSize="32dp"
+            android:text="WEBINAR SERIES"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/webinar"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:justificationMode="inter_word"
+            android:textSize="18dp"
+
+            android:text="Knowledge is just like a vast sea, deep and endless. Sailing across this sea is a tiring process and especially boring when you wander aimlessly without any proper directions. Why not get yourselves a compass in this lonely and unending voyage especially from your predecessors who have already deciphered a part of this infinite sea?
+
+
+\n\nWe have brought exactly this opportunity to you. On the occasion of REMINISCENCE, we invite you to our webinar series where many well-renowned figures from within the nation and across the globe will share their valuable experience in their fields and how they made their dreams come true. We have an eminent line of speakers who have kindly lend us some of their time to be a part of the webinar series from both the world of academics and industry professionals. We are hosting great names in metallurgy such as Sir Harry Bhadeshia, Professor at Cambridge University as well as beyond – Dr. Gautam Chattopadhyay, Senior research scientist at NASA. We have the likes of Dr. B. S. Murty, director at IIT, Hyderabad along with 12 other amazing personalities from various walks of this field. So, do not miss this opportunity and we can assure you that your participation will be worthwhile." />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="35dp"
+            android:textSize="22dp"
+            android:paddingRight="30px"
+            android:paddingLeft="30px"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/black"
+            android:id="@+id/register"
+            android:text="REGISTER"/>
+
+    </LinearLayout>
+
+</ScrollView>

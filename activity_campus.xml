@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    tools:context=".campus">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/back"
+            android:src="@drawable/ic_arrow_back_black_24dp"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="423dp"
+            android:src="@drawable/ambassador"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Campus Ambassadors, here’s a piece of good news to brighten your day. Due to positively high response and the appreciable enthusiasm we have received in this programme, Reminiscence- The Metallurgical Journey of 80 Years brings you some awesome deals in addition to the benefits promised earlier.
+\n1. Data pack will be provided to all the campus ambassadors, for attending the webinar series.
+\n2. A digital certificate will be provided as a token of appreciation from our side.
+\n\nApart from these, we also have some brilliant perks exclusively for the position holders.
+\nI. The Campus Ambassador securing the first position will be rewarded with Rs. 500/- in cash, an Amazon Prime account for 1 month, a Netflix account for 1 month, and a Hotstar VIP account for 1 year.
+\nII. The Campus Ambassador securing the second position will be rewarded with Rs. 300/- in cash, an Amazon Prime account for 1 month, and a Netflix account for 1 month.
+\nIII. The Campus Ambassador securing the third position will be rewarded with Rs. 200/- in cash and an Amazon Prime account for 1 month.
+\n\nLast Date of Hiring: 7th July, 2020"/>
+    </LinearLayout>
+
+
+</ScrollView>

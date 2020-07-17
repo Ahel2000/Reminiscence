@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:layout_height="wrap_content"
+    tools:context=".metabeings">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/back"
+            android:src="@drawable/ic_arrow_back_black_24dp"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:src="@drawable/clocktower"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="The Past and the Present. The have-beens and the are-beings. Yesterday and today. These two spectrums of the timeline govern the third aspect, the future.  In a massive attempt to bring these two sides of the same coin together, “Reminiscence – The Metallurgical Journey of 80 Years” presents “MetaBeings”, a grand assembly of alumni who have pursued Metallurgy with great excellence, and the present students, who are on their way to becoming distinguished people of honor.
+
+
+\nThis platform provides an excellent opportunity for the students currently pursuing Metallurgy and Materials Engineering from IIEST Shibpur to learn from their predecessors, people who have braved the challenges of life, and established their own identity in this competitive world.  An excellent opportunity to learn from the very best, “MetaBeings” can guide the present students to a meaningful existence in the vast stream of metallurgy.
+
+
+\nIn addition to this, MetaBeings also serves as an amazing medium to reunite past friends. Apart from being an alumni-student interaction platform, this will also serve as the foundation of the largest online reunion the college has ever witnessed. With alumni dating back to 1964, MetaBeings promises to be a platform not only of educational excellence but also one of high emotional value, where the alumni will take us on a stroll down the memory lanes. Stories of mischief, tales of reminiscence, and other innumerable memoirs, the distinguished past pupils will recount and relive their student days. So, MetaBeings, an exclusive IIEST event, calls for you to brace yourself on the 25th of July, 2020 for what surely will be a day of knowledge, nostalgia, and spirit!"/>
+    </LinearLayout>
+
+
+</ScrollView>
