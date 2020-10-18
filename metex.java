@@ -10,7 +10,7 @@ import android.widget.Button;
 
 import com.ahel.reminiscence.R;
 
-public class metex extends AppCompatActivity {
+public class metex extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
