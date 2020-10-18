@@ -21,14 +21,7 @@ public class website extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_website);
 
-//        ImageButton back=(ImageButton) findViewById(R.id.back);
-//        back.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent browserIntent=new Intent(team.this,OpeningActivity.class);
-//                startActivity(browserIntent);
-//            }
-//        });
+     
 
         ImageButton call=(ImageButton)findViewById(R.id.button1);
         call.setOnClickListener(new View.OnClickListener() {
