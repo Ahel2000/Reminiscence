@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class first extends AppCompatActivity {
+public class first extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
